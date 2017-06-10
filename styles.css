@@ -1,0 +1,350 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+================================================================================
+HEADER
+================================================================================
+*/
+
+
+
+
+
+.one{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.overlay-1{
+  box-sizing: border-box;
+  background-color: black;
+  opacity: 0.75;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+header{
+position: relative;
+overflow: hidden;
+box-sizing: border-box;
+}
+
+.header-image{
+  box-sizing: border-box;
+}
+
+.title{
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+  opacity: 0.8;
+  top:20%;
+  font-size: 60px;
+}
+
+.date{
+  font-family: "monoton",cursive;
+  position: absolute;
+  top: 25%;
+  color: white;
+}
+
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.date-container{
+  display: flex;
+  justify-content: center;
+}
+/*
+=================================================================================
+BATTLE OF BANDS
+=================================================================================
+*/
+.two{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bob{
+  position: relative;
+
+}
+
+.overlay-left{
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  height:100%;
+  width: 40%
+}
+
+p.Event-title {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 4vw;
+    font-family: "Patua One",cursive;
+    opacity: 1.0;
+}
+
+p.Event-text-left {
+color: white;
+text-align: left;
+margin-top: 30px;
+margin-right: 10px;
+margin-left: 10px;
+font-size: 2.2vw;
+line-height: 2.6vw;
+font-family: 'Didact Gothic', sans-serif;
+}
+
+a.knowmore{
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  font-size: 2.6vw;
+  font-family: 'Didact Gothic', sans-serif;
+
+
+}
+a.knowmore:link,a.knowmore:visited{
+  color: #0091dc;
+  text-decoration: none;
+}
+
+a.knowmore:hover{
+  text-decoration: underline;
+  color: #0091dc;
+
+}
+
+a.knowmore:active{
+  text-decoration: none;
+}
+
+/*
+================================================================================
+SPORTS
+================================================================================
+*/
+
+.two{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sports{
+  position: relative;
+
+}
+
+.overlay-right{
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  height:100%;
+  width: 40%
+}
+
+p.Event-text-right {
+color: white;
+text-align: right;
+margin-top: 30px;
+margin-right: 10px;
+margin-left: 10px;
+font-size: 2.4vw;
+line-height: 2.6vw;
+font-family: 'Didact Gothic', sans-serif;
+}
+
+
+/*
+================================================================================
+CULTURAL
+================================================================================
+*/
+
+.cultural{
+  position: relative;
+}
+
+
+.literary{
+  position: relative;
+}
+
+.gaming{
+  position: relative;
+}
+
+
+/*
+================================================================================
+NAVIGATION BAR
+================================================================================
+*/
+nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+.nav{
+  background-color: rgba(0,0,0,0.85);
+  display: flex;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav-item{
+  margin: 10px 3vw 10px 3vw;
+  opacity: 0.7;
+}
+
+a.nav-link{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.7vw;
+  color: rgba(255,255,255,1.0);
+}
+
+a.nav-link:link,a.nav-link:visited{
+  text-decoration: none;
+}
+
+a.nav-link:hover{
+  text-decoration: underline;
+
+}
+
+a.nav-link:active{
+  text-decoration: none;
+}
+
+.active{
+  opacity: 1.0;
+}
+/*
+================================================================================
+MAIN HEADING
+================================================================================
+*/
+
+.main-head{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 8vw;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+/*
+================================================================================
+CARDS
+================================================================================
+*/
+
+.card-container{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.card1, .card2,.card3{
+  background-color: #197f77;
+  width: 42.5%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.day{
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+  font-size: 4vw;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.column-container{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5vw;
+}
+
+
+
+.event-column,.time-column,.venue-column
+{
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 1.3vw;
+  line-height: 3vw;
+}
+
+body{
+  background-color: black;
+}
