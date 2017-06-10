@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  font-family: "Roboto", sans-serif;
 }
 ol, ul {
   list-style: none;
@@ -49,7 +50,9 @@ HEADER
 */
 
 
-
+#countdown{
+  color:white;
+}
 
 
 .one{
@@ -62,12 +65,15 @@ HEADER
 
 .overlay-1{
   box-sizing: border-box;
-  background-color: black;
-  opacity: 0.75;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
+background-color: rgba(0,0,0,0.75);
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
 }
 
 header{
@@ -83,20 +89,53 @@ box-sizing: border-box;
 .title{
   box-sizing: border-box;
   color: white;
-  position: absolute;
-  opacity: 0.8;
-  top:20%;
   font-size: 60px;
 }
 
 .date{
-  font-family: "monoton",cursive;
-  position: absolute;
-  top: 25%;
   color: white;
 }
+.logo{
+width: 18vw;
+}
+#countdown{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
+}
+.count-down-units{
+  font-size: 3vw;
+padding: 1vw;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
 
+.count-down-tail{
+font-size: 1.6vw;
+opacity:0.5;
+}
+
+.sponsor-text{
+  color: rgba(255,255,255, 0.5);
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+  font-size: 1.3vw;
+
+}
+.sponsor-image{
+width:3vw;
+  align-self:center;
+  padding: 0.7vw;
+}
+.sponsors{
+  display:flex;
+
+}
 .title-container {
     display: flex;
     justify-content: center;

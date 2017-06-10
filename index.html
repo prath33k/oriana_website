@@ -14,14 +14,26 @@
     <header>
       <div class="header-image"><img class="one" src="images/header-big.jpg">
         <div class="overlay-1">
+          <div class="sponsor-text">
+            Powered By
+          </div>
+          <div class="sponsors">
+          <img class="sponsor-image" src="images/sponsor1.png">
+          <img class="sponsor-image" src="images/sponsor2.png">
+        </div>
+            <img class="logo" src="images/logo.png">
+          <div class="title-container">
+          <h1 class="title">ORIANA 2017</h1>
+        </div>
+        <div class="date-container">
+          <h2 class="date">October 29-31</h2>
+        </div>
+        <div id="countdown">
+        </div>
         </div>
       </div>
-      <div class="title-container">
-      <h1 class="title">ORIANA 2017</h1>
-    </div>
-    <div class="date-container">
-      <h2 class="date">October 28-31</h2>
-    </div>
+
+
     </header>
   </div>
 
@@ -90,7 +102,7 @@
         Honestly, I think this is the only event category
         the college administration cares about.
 
-      Show off your knowlodge and flaunt your language prowess.
+      Show off your knowledge and flaunt your language prowess.
       For example:
       Exasperating farrago of distortions, misrepresentations and outright lies being
       broadcast by an unprincipled showman masquerading as a journalst.
@@ -135,4 +147,31 @@
 
 
 </body>
+<script type="text/javascript">
+
+var countdownclock = setInterval(function(){
+var now = new Date;
+var eventDate = new Date("Oct 28, 2017 12:00:00").getTime();
+var distance = eventDate - now.getTime();
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("countdown").innerHTML =  '<div class="count-down-units"> ' +days+"<div class='count-down-tail'>Days</div>  </div>"+
+            ' <div class="count-down-units">' + hours+" <div class='count-down-tail'>Hours </div> </div>"+
+            '<div class="count-down-units">' +minutes+" <div class='count-down-tail'>Minutes </div> </div>"+
+            '<div class="count-down-units">' +seconds+" <div class='count-down-tail'>Seconds </div> </div>"
+            ;
+
+if (distance < 0) {
+  clearInterval(countdownclock);
+  document.getElementById("countdown").innerHTML = "The event is On!";
+}
+
+},1000);
+
+
+
+</script>
 </html>
