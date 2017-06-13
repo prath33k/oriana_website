@@ -302,8 +302,8 @@ SPORTS
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   top: 0;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(-34%, rgba(0,0,0,0.8)), color-stop(39%, rgba(0,0,0,0)), color-stop(68%, rgba(0,0,0,0.6)), color-stop(42%, rgba(0,0,0,1)));
-  background: linear-gradient(0deg, rgba(0,0,0,0.8) -34%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.6) 68%, rgba(0,0,0,1) 42%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2.94%, rgba(0, 0, 0, 1)), color-stop(27.73%, transparent), color-stop(48.32%, rgba(0, 0, 0, 0.8)));
+background: linear-gradient(to top, rgba(0, 0, 0, 1) 2.94%, transparent 27.73%, rgba(0, 0, 0, 0.8) 48.32%);
   height:100%;
   width: 100%;
 }
@@ -341,8 +341,8 @@ CULTURAL
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   top: 0;
-background: -webkit-gradient(linear, left bottom, left top, color-stop(-13%, rgba(0,0,0,0.8)), color-stop(27%, rgba(0,0,0,0)), color-stop(43%, rgba(0,0,0,0.6)), color-stop(42%, rgba(0,0,0,1)));
-background: linear-gradient(0deg, rgba(0,0,0,0.8) -13%, rgba(0,0,0,0) 27%, rgba(0,0,0,0.6) 43%, rgba(0,0,0,1) 42%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(13.87%, rgba(0, 0, 0, 0.8)), color-stop(31.51%, transparent), color-stop(46.64%, rgba(0, 0, 0, 0.6)), color-stop(68.91%, rgba(0, 0, 0, 1)));
+background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 13.87%, transparent 31.51%, rgba(0, 0, 0, 0.6) 46.64%, rgba(0, 0, 0, 1) 68.91%);
   height:100%;
   width: 100%;
 }
@@ -377,8 +377,8 @@ LITERARY
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   top: 0;
-      background: -webkit-gradient(linear, left bottom, left top, color-stop(-13%, rgba(0,0,0,0.6)), color-stop(45%, rgba(0,0,0,0)), color-stop(62%, rgba(0,0,0,0.75)), color-stop(67%, rgba(0,0,0,1)));
-      background: linear-gradient(0deg, rgba(0,0,0,0.6) -13%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.75) 62%, rgba(0,0,0,1) 67%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(12.18%, rgba(0, 0, 0, 0.6)), color-stop(44.96%, transparent), color-stop(65.13%, rgba(0, 0, 0, 0.75)), color-stop(87.39%, rgba(0, 0, 0, 1)));
+background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 12.18%, transparent 44.96%, rgba(0, 0, 0, 0.75) 65.13%, rgba(0, 0, 0, 1) 87.39%);
   height:100%;
   width: 100%;
 }
