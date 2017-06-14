@@ -563,7 +563,7 @@ body{
 MOBILE SITE
 ================================================================================
 */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .overlay-2{
     position: relative;
     background: none;
