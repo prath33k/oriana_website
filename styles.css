@@ -2,7 +2,6 @@
   font-family: 'Rust';
   src: url('introrustg-base2line-webfont.woff') format('woff');
 }
-@media only screen and (min-width: 701px){
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -556,8 +555,6 @@ CARDS
 
 body{
   background-color: black;
-}
-
 }
 
 /*
