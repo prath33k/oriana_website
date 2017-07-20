@@ -727,3 +727,154 @@ background-color: rgba(255, 255, 255, 1);
   }
 
 }
+
+
+/*
+================================================================================
+CULTURAL PAGE
+================================================================================
+*/
+
+.cultural-container {
+  background-color: #615c72;
+  height: 100%;
+  width: 100%;
+}
+
+.eventcard {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+
+.eccolor1{
+  background-color: #96AAE7;
+}
+
+h1.category {
+  font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    font-size: 11vw;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h1.culthead {
+  color: #ffffff
+}
+
+
+h2.event-head {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 4vw;
+    font-weight: 600;
+    text-align:center;
+}
+
+h2.ehcolor1 {
+  color: #615c72;
+  }
+
+
+p.event-tag {
+    font-family: "Roboto",sans-serif;
+    text-align: left;
+    margin-top: 12px;
+    margin-left: 3%;
+    font-size: 1.5vw;
+    line-height: 2.6vw;
+    margin-right: 3%;
+    font-weight: 300;
+}
+
+p.etcolor1 {
+  color: #ffffff;
+}
+
+h3.event-subhead {
+  font-family: "Josefin Sans",sans-serif;
+    font-size: 3.5vw;
+    margin-left: 3%;
+    margin-top: 35px;
+}
+
+h3.escolor1 {
+  color: #615c72;
+}
+
+p.quote {
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2vw;
+    margin-left: 3%;
+    margin-top: 15px;
+    margin-right: 3%;
+    color: #ffffff;
+    text-align: center;
+}
+
+p.quote-owner {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 11px;
+    font-family: "Roboto",sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+p.quote2{
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.poster{
+  width: 75%;
+    height: auto;
+    align-self: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 2px solid #615c72;
+}
+
+.poster-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+p.vervetag{
+text-align: center;
+    width: 90%;
+    line-height: 3vw;
+    font-size: 1.7vw;
+}
+
+/*
+================================================================================
+RENAISSANCE
+================================================================================
+*/
+
+.eccolor2{
+  background-color: #ff1c2e;
+}
+
+h1.lithead {
+  color: #ffffff
+}
+
+p.etcolor2 {
+  color: #ffffff;
+}
+
+h3.escolor2 {
+  color: #ffffff;
+}
