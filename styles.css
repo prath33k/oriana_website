@@ -764,7 +764,7 @@ h1.category {
 }
 
 h1.culthead {
-  color: #ffffff
+  color: #ffffff;
 }
 
 
@@ -864,17 +864,47 @@ RENAISSANCE
 */
 
 .eccolor2{
-  background-color: #ff1c2e;
+  background-color: #5C0009;
 }
 
 h1.lithead {
-  color: #ffffff
+  color: #ffffff;
 }
 
 p.etcolor2 {
-  color: #ffffff;
+  color: #9B96A3;
 }
 
 h3.escolor2 {
   color: #ffffff;
+}
+
+.literary-container{
+  width:100%;
+  height: 100%;
+  background-color: #940315;
+}
+
+/*
+================================================================================
+A LA MODE
+================================================================================
+*/
+
+h1.alahead{
+  color: #504265;
+}
+
+.eccolor3{
+  background-color: #685C79;
+}
+
+.fashion-container{
+  height: 100%;
+  width: 100%;
+  background-color: #AC6C82;
+}
+
+p.etcolor3{
+  color: #FFBC82;
 }
