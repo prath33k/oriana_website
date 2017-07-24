@@ -785,8 +785,8 @@ p.event-tag {
     text-align: left;
     margin-top: 12px;
     margin-left: 3%;
-    font-size: 1.5vw;
-    line-height: 2.6vw;
+    font-size: 1.7vw;
+    line-height: 2.7vw;
     margin-right: 3%;
     font-weight: 300;
 }
@@ -797,9 +797,8 @@ p.etcolor1 {
 
 h3.event-subhead {
   font-family: "Josefin Sans",sans-serif;
-    font-size: 3.5vw;
-    margin-left: 3%;
-    margin-top: 35px;
+    font-size: 4.5vw;
+    margin-left: 2%;
 }
 
 h3.escolor1 {
@@ -885,6 +884,20 @@ h3.escolor2 {
   background-color: #940315;
 }
 
+.icon-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+}
+
+img.icon {
+    display: block;
+    height: 6vw;
+    width: 6vw;
+    margin-left: 3%;
+    align-self: center;
+}
 /*
 ================================================================================
 A LA MODE
