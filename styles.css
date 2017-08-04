@@ -921,3 +921,30 @@ h1.alahead{
 p.etcolor3{
   color: #FFBC82;
 }
+/*
+================================================================================
+Crescendo
+================================================================================
+*/
+
+h1.bobhead{
+  color: #f2c880;
+}
+
+.eccolor4{
+  background-color: #5E5A59;
+}
+
+.crescendo-container{
+  height: 100%;
+  width: 100%;
+  background-color: #0D0D0D;
+}
+
+p.etcolor4{
+  color: #f2c880;
+}
+
+.border1{
+border: 1px solid #000000;   
+  }
