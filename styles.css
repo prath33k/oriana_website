@@ -980,8 +980,8 @@ MOBILE SITE
     text-align: center;
     margin-top: 12px;
     margin-left: 3%;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 20px;
     margin-right: 3%;
     font-weight: 300;
   }
@@ -989,8 +989,8 @@ MOBILE SITE
   p.vervetag {
     text-align: center;
     width: 90%;
-    line-height: 18px;
-    font-size: 12px;
+    line-height: 20px;
+    font-size: 14px;
   }
 
   img.icon {
