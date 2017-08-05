@@ -47,6 +47,8 @@ table {
   border-spacing: 0;
 }
 
+
+
 /*
 ================================================================================
 HEADER
@@ -361,6 +363,38 @@ a.kmccultural:hover{
   color: #8c54f7;
 }
 
+/*
+================================================================================
+ENCORE
+================================================================================
+*/
+
+.encore{
+  position: relative;
+}
+
+.overlay-7{
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 19.33%, transparent 46.22%, rgba(0, 0, 0, 1) 70.59%, rgba(0, 0, 0, 0.6));
+  height: 100%;
+  width: 100%;
+}
+
+p.etcencore{
+  color: #ecc89c;
+}
+
+a.kmcencore:link,a.kmcencore:visited{
+  background-color: rgba(196, 145, 87, 0.9);
+  color: #000000;
+}
+
+a.kmcencore:hover{
+  background-color: rgba(141, 87, 35, 0.9);
+  color: #ffffff;
+}
 
 /*
 =================================================================================
@@ -779,6 +813,109 @@ p.etcolor4{
 }
 
 
+
+/*
+================================================================================
+WIDESCREEN LIMITS
+================================================================================
+*/
+
+@media only screen and (min-width: 1001px) {
+
+  h1.category {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  h2.event-head {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .cultural-container,.literary-container,.sports-container,.crescendo-container,.fashion-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p.event-tag {
+    font-family: "Roboto",sans-serif;
+    text-align: left;
+    margin-top: 12px;
+    margin-left: 3%;
+    font-size: 17px;
+    line-height: 25px;
+    margin-right: 3%;
+    font-weight: 300;
+  }
+
+
+  p.vervetag {
+    text-align: center;
+    width: 90%;
+    line-height: 28px;
+    font-size: 17px;
+  }
+
+
+  img.icon {
+    display: block;
+    height: 65px;
+    width: 65px;
+    margin-left: 3%;
+    align-self: center;
+  }
+
+  h3.event-subhead {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 45px;
+    margin-left: 2%;
+  }
+
+  p.quote {
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 15px;
+    margin-right: 3%;
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+  p.quote-owner {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 11px;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .eventcard {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 788px;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+
+}
+
+
+
+
 /*
 ================================================================================
 MOBILE SITE
@@ -786,7 +923,7 @@ MOBILE SITE
 */
 @media only screen and (max-width: 700px) {
 
-  .bob,.sports,.cultural,.literary,.gaming {
+  .bob,.sports,.cultural,.literary,.gaming,.encore {
     position: relative;
     border-radius: 10px;
     margin-top: 10px;
@@ -795,7 +932,7 @@ MOBILE SITE
     margin-right: 5px;
     overflow: hidden;
   }
-  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6{
+  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6,.overlay-7{
     position: relative;
     background: none;
     display: flex;
@@ -824,6 +961,10 @@ MOBILE SITE
 
   .overlay-6{
     background-color: #353434;;
+  }
+
+  .overlay-7{
+    background-color: #8d5723;
   }
 
   p.Event-title {
@@ -941,6 +1082,20 @@ MOBILE SITE
   a.kmcgaming:hover{
     background-color: rgba(255,255, 255, 1);
     color: #353434;
+  }
+
+  p.etcencore{
+    color: #ffffff;
+  }
+
+  a.kmcencore:link,a.kmcencore:visited{
+    background-color: #ffffff;
+    color: #8d5723;
+  }
+
+  a.kmcencore:hover{
+    background-color: rgba(255,255, 255, 1);
+    color: #8d5723;
   }
 
 
