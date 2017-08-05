@@ -63,50 +63,50 @@ HEADER
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
 }
 
 
 .overlay-1{
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-background-color: rgba(0,0,0,0.75);
-height: 100%;
-width: 100%;
-position: absolute;
-top: 0;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.75);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 header{
-position: relative;
-overflow: hidden;
--webkit-box-sizing: border-box;
-        box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header-image{
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .title{
   font-family: "Rust",sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: white;
   font-size: 5vw;
 }
@@ -115,7 +115,7 @@ overflow: hidden;
   color: white;
 }
 .logo{
-width: 18vw;
+  width: 18vw;
 }
 #countdown{
   display: -webkit-box;
@@ -123,39 +123,39 @@ width: 18vw;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 
 }
 .count-down-units{
   font-size: 3vw;
-padding: 1vw;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
+  padding: 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .count-down-tail{
-font-size: 1.6vw;
-opacity:0.5;
+  font-size: 1.6vw;
+  opacity:0.5;
 }
 
 .sponsor-text{
@@ -166,9 +166,9 @@ opacity:0.5;
 
 }
 .sponsor-image{
-width:3vw;
+  width:3vw;
   -ms-flex-item-align:center;
-      align-self:center;
+  align-self:center;
   padding: 0.7vw;
 }
 .sponsors{
@@ -178,12 +178,12 @@ width:3vw;
 
 }
 .title-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .date-container{
@@ -191,8 +191,8 @@ width:3vw;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 /*
 =================================================================================
@@ -213,7 +213,7 @@ BATTLE OF BANDS
 .overlay-2{
   position: absolute;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   top: 0;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.8)), color-stop(52%, rgba(0,0,0,0)), color-stop(98%, rgba(0,0,0,1)), to(rgba(0,0,0,1)));
   background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 52%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%);
@@ -234,14 +234,14 @@ p.Event-title {
 }
 
 p.Event-text {
-      text-align: left;
-      margin-top: 30px;
-      padding-left: 4vw;
-      font-size: 2.2vw;
-      line-height: 2.9vw;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 100;
-      width: 60%;
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 4vw;
+  font-size: 2.2vw;
+  line-height: 2.9vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  width: 60%;
 }
 
 p.etcbob {
@@ -250,10 +250,10 @@ p.etcbob {
 
 a.knowmore{
 
-    margin-left: 4.3vw;
+  margin-left: 4.3vw;
   display: block;
   text-align: center;
-      border-radius: 40px;
+  border-radius: 40px;
   font-size: 2.4vw;
   font-family: "Roboto",sans-serif;
   font-weight: 300;
@@ -282,7 +282,7 @@ a.kmcbob:link,a.kmcbob:visited{
 
 a.kmcbob:hover{
   color: #ffffff;
-    background-color: rgba(133,89,223,0.9);
+  background-color: rgba(133,89,223,0.9);
 }
 
 /*
@@ -300,10 +300,10 @@ SPORTS
 .overlay-3{
   position: absolute;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   top: 0;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(2.94%, rgba(0, 0, 0, 1)), color-stop(27.73%, transparent), color-stop(48.32%, rgba(0, 0, 0, 0.6)));
-background: linear-gradient(to top, rgba(0, 0, 0, 1) 2.94%, transparent 27.73%, rgba(0, 0, 0, 0.6) 48.32%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 2.94%, transparent 27.73%, rgba(0, 0, 0, 0.6) 48.32%);
   height:100%;
   width: 100%;
 }
@@ -323,7 +323,7 @@ a.kmcsports:link,a.kmcsports:visited{
 
 a.kmcsports:hover{
   color: #ffffff;
-    background-color: rgba(56, 175, 98, 0.9);
+  background-color: rgba(56, 175, 98, 0.9);
 }
 /*
 ================================================================================
@@ -339,10 +339,10 @@ CULTURAL
 .overlay-4{
   position: absolute;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   top: 0;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(13.87%, rgba(0, 0, 0, 0.8)), color-stop(31.51%, transparent), color-stop(46.64%, rgba(0, 0, 0, 0.6)), color-stop(68.91%, rgba(0, 0, 0, 1)));
-background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 13.87%, transparent 31.51%, rgba(0, 0, 0, 0.6) 46.64%, rgba(0, 0, 0, 1) 68.91%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 13.87%, transparent 31.51%, rgba(0, 0, 0, 0.6) 46.64%, rgba(0, 0, 0, 1) 68.91%);
   height:100%;
   width: 100%;
 }
@@ -353,12 +353,12 @@ p.etccultural{
 
 a.kmccultural:link,a.kmccultural:visited{
   background-color: rgba(234, 234, 234, 0.9);
-color: #071190;
+  color: #071190;
 }
 
 a.kmccultural:hover{
   background-color: rgba(255, 255, 255, 0.9);
-color: #8c54f7;
+  color: #8c54f7;
 }
 
 
@@ -375,10 +375,10 @@ LITERARY
 .overlay-5{
   position: absolute;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   top: 0;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(12.18%, rgba(0, 0, 0, 0.6)), color-stop(44.96%, transparent), color-stop(65.13%, rgba(0, 0, 0, 0.75)), color-stop(87.39%, rgba(0, 0, 0, 1)));
-background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 12.18%, transparent 44.96%, rgba(0, 0, 0, 0.75) 65.13%, rgba(0, 0, 0, 1) 87.39%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 12.18%, transparent 44.96%, rgba(0, 0, 0, 0.75) 65.13%, rgba(0, 0, 0, 1) 87.39%);
   height:100%;
   width: 100%;
 }
@@ -389,12 +389,12 @@ p.etcliterary{
 
 a.kmcliterary:link,a.kmcliterary:visited{
   background-color: rgba(232, 75, 126, 0.9);
-color: #fff8dc;
+  color: #fff8dc;
 }
 
 a.kmcliterary:hover{
   background-color: rgba(232, 4, 109, 0.9);
-color: #ffffff;
+  color: #ffffff;
 }
 /*
 ================================================================================
@@ -419,12 +419,12 @@ p.etcgaming{
 
 a.kmcgaming:link,a.kmcgaming:visited{
   background-color: rgba(216, 216, 216, 0.9);
-color: #000000;
+  color: #000000;
 }
 
 a.kmcgaming:hover{
   background-color: rgba(255,255, 255, 0.9);
-color: #000000;
+  color: #000000;
 }
 
 
@@ -447,8 +447,8 @@ nav{
   height: auto;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 
 }
 .nav-item{
@@ -506,12 +506,12 @@ CARDS
   width: 90%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -538,7 +538,7 @@ CARDS
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-bottom: 5vw;
 }
 
@@ -557,177 +557,6 @@ body{
   background-color: black;
 }
 
-/*
-================================================================================
-MOBILE SITE
-================================================================================
-*/
-@media only screen and (max-width: 700px) {
-
-  .bob,.sports,.cultural,.literary,.gaming {
-    position: relative;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    overflow: hidden;
-}
-  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6{
-    position: relative;
-    background: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .overlay-2{
-    background-color: #800080;
-  }
-
-  .overlay-3{
-    background-color: #e05b4f;
-  }
-
-  .overlay-4{
-    background-color: #9a8bce;
-  }
-
-  .overlay-5 {
-    background-color: #a52245;
-}
-
- .overlay-6{
-   background-color: #353434;;
- }
-
-  p.Event-title {
-    color: white;
-    text-align: center;
-    padding: 0;
-    margin-top: 30px;
-    font-size: 50px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    opacity: 1.0;
-    width: 100%;
-  }
-
-  p.Event-text {
-        text-align: center;
-        margin-top: 15px;
-        padding: 0;
-        font-size: 18px;
-        line-height: 28px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        width: 90%;
-  }
-
-  p.etcbob {
-    color: #eccbb2;
-  }
-
-  a.knowmore{
-
-      margin: 0;
-    display: block;
-    text-align: center;
-        border-radius: 4px;
-    font-size: 18px;
-    font-family: "Roboto",sans-serif;
-    font-weight: 300;
-    width: 90%;
-    padding: 14px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  a.knowmore:link,a.knowmore:visited{
-    text-decoration: none;
-  }
-
-  a.knowmore:hover{
-    text-decoration: none;
-
-  }
-
-  a.knowmore:active{
-    text-decoration: none;
-  }
-
-
-  a.kmcbob:link,a.kmcbob:visited{
-    background-color: rgba(255,255,255,1);
-    color: #800080;
-  }
-
-  a.kmcbob:hover{
-    color: #800080;
-      background-color: rgba(255,255,255,1);
-  }
-
-  p.etcsports,p.etccultural{
-    color: #ffffff;
-  }
-
-  a.kmcsports:link,a.kmcsports:visited{
-    background-color: rgba(255, 255, 255, 1);
-    color: #e05b4f;
-  }
-
-  a.kmcsports:hover{
-    color: #e05b4f;
-      background-color: rgba(255, 255, 255, 1);
-  }
-
-  a.kmccultural:link,a.kmccultural:visited{
-    background-color: rgba(255, 255, 255, 1);
-  color: #9a8bce;
-  }
-
-  a.kmccultural:hover{
-    background-color: rgba(255, 255, 255, 1);
-  color: #9a8bce;
-  }
-
-  p.etcliterary{
-    color: #efd2b6;
-  }
-
-  a.kmcliterary:link,a.kmcliterary:visited{
-    background-color: rgba(255, 255, 255, 1);
-  color: #a52245;
-  }
-
-  a.kmcliterary:hover{
-background-color: rgba(255, 255, 255, 1);
-  color: #a52245;
-  }
-
-  p.etcgaming{
-    color: #ffffff;
-  }
-
-  a.kmcgaming:link,a.kmcgaming:visited{
-    background-color: #ffffff;
-  color: #353434;
-  }
-
-  a.kmcgaming:hover{
-    background-color: rgba(255,255, 255, 1);
-  color: #353434;
-  }
-
-
-  body{
-    background-color: #f0f8ff;
-  }
-
-}
-
 
 /*
 ================================================================================
@@ -742,13 +571,13 @@ CULTURAL PAGE
 }
 
 .eventcard {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    border-radius: 20px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    margin-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  border-radius: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 40px;
 }
 
 .eccolor1{
@@ -757,10 +586,10 @@ CULTURAL PAGE
 
 h1.category {
   font-family: "Josefin Sans",sans-serif;
-    font-weight: 600;
-    font-size: 11vw;
-    text-align: center;
-    padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 11vw;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 h1.culthead {
@@ -769,26 +598,26 @@ h1.culthead {
 
 
 h2.event-head {
-    font-family: "Josefin Sans",sans-serif;
-    font-size: 4vw;
-    font-weight: 600;
-    text-align:center;
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 4vw;
+  font-weight: 600;
+  text-align:center;
 }
 
 h2.ehcolor1 {
   color: #615c72;
-  }
+}
 
 
 p.event-tag {
-    font-family: "Roboto",sans-serif;
-    text-align: left;
-    margin-top: 12px;
-    margin-left: 3%;
-    font-size: 1.7vw;
-    line-height: 2.7vw;
-    margin-right: 3%;
-    font-weight: 300;
+  font-family: "Roboto",sans-serif;
+  text-align: left;
+  margin-top: 12px;
+  margin-left: 3%;
+  font-size: 1.7vw;
+  line-height: 2.7vw;
+  margin-right: 3%;
+  font-weight: 300;
 }
 
 p.etcolor1 {
@@ -797,8 +626,8 @@ p.etcolor1 {
 
 h3.event-subhead {
   font-family: "Josefin Sans",sans-serif;
-    font-size: 4.5vw;
-    margin-left: 2%;
+  font-size: 4.5vw;
+  margin-left: 2%;
 }
 
 h3.escolor1 {
@@ -806,25 +635,25 @@ h3.escolor1 {
 }
 
 p.quote {
-    font-family: "Roboto",sans-serif;
-    font-weight: 100;
-    font-style: italic;
-    font-size: 2vw;
-    margin-left: 3%;
-    margin-top: 15px;
-    margin-right: 3%;
-    color: #ffffff;
-    text-align: center;
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 2vw;
+  margin-left: 3%;
+  margin-top: 15px;
+  margin-right: 3%;
+  color: #ffffff;
+  text-align: center;
 }
 
 p.quote-owner {
-    text-align: right;
-    margin-right: 10%;
-    margin-top: 11px;
-    font-family: "Roboto",sans-serif;
-    font-size: 2vw;
-    font-weight: 400;
-    color: #ffffff;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 11px;
+  font-family: "Roboto",sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 p.quote2{
@@ -835,11 +664,11 @@ p.quote2{
 
 .poster{
   width: 75%;
-    height: auto;
-    align-self: center;
-    border-radius: 10px;
-    margin-top: 30px;
-    border: 2px solid #615c72;
+  height: auto;
+  align-self: center;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 2px solid #615c72;
 }
 
 .poster-container{
@@ -850,10 +679,10 @@ p.quote2{
 }
 
 p.vervetag{
-text-align: center;
-    width: 90%;
-    line-height: 3vw;
-    font-size: 1.7vw;
+  text-align: center;
+  width: 90%;
+  line-height: 3vw;
+  font-size: 1.7vw;
 }
 
 /*
@@ -892,11 +721,11 @@ h3.escolor2 {
 }
 
 img.icon {
-    display: block;
-    height: 6vw;
-    width: 6vw;
-    margin-left: 3%;
-    align-self: center;
+  display: block;
+  height: 6vw;
+  width: 6vw;
+  margin-left: 3%;
+  align-self: center;
 }
 /*
 ================================================================================
@@ -946,5 +775,267 @@ p.etcolor4{
 }
 
 .border1{
-border: 1px solid #000000;   
+  border: 1px solid #000000;
+}
+
+
+/*
+================================================================================
+MOBILE SITE
+================================================================================
+*/
+@media only screen and (max-width: 700px) {
+
+  .bob,.sports,.cultural,.literary,.gaming {
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
   }
+  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6{
+    position: relative;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .overlay-2{
+    background-color: #800080;
+  }
+
+  .overlay-3{
+    background-color: #e05b4f;
+  }
+
+  .overlay-4{
+    background-color: #9a8bce;
+  }
+
+  .overlay-5 {
+    background-color: #a52245;
+  }
+
+  .overlay-6{
+    background-color: #353434;;
+  }
+
+  p.Event-title {
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    opacity: 1.0;
+    width: 100%;
+  }
+
+  p.Event-text {
+    text-align: center;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 90%;
+  }
+
+  p.etcbob {
+    color: #eccbb2;
+  }
+
+  a.knowmore{
+
+    margin: 0;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    width: 90%;
+    padding: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  a.knowmore:link,a.knowmore:visited{
+    text-decoration: none;
+  }
+
+  a.knowmore:hover{
+    text-decoration: none;
+
+  }
+
+  a.knowmore:active{
+    text-decoration: none;
+  }
+
+
+  a.kmcbob:link,a.kmcbob:visited{
+    background-color: rgba(255,255,255,1);
+    color: #800080;
+  }
+
+  a.kmcbob:hover{
+    color: #800080;
+    background-color: rgba(255,255,255,1);
+  }
+
+  p.etcsports,p.etccultural{
+    color: #ffffff;
+  }
+
+  a.kmcsports:link,a.kmcsports:visited{
+    background-color: rgba(255, 255, 255, 1);
+    color: #e05b4f;
+  }
+
+  a.kmcsports:hover{
+    color: #e05b4f;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  a.kmccultural:link,a.kmccultural:visited{
+    background-color: rgba(255, 255, 255, 1);
+    color: #9a8bce;
+  }
+
+  a.kmccultural:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: #9a8bce;
+  }
+
+  p.etcliterary{
+    color: #efd2b6;
+  }
+
+  a.kmcliterary:link,a.kmcliterary:visited{
+    background-color: rgba(255, 255, 255, 1);
+    color: #a52245;
+  }
+
+  a.kmcliterary:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: #a52245;
+  }
+
+  p.etcgaming{
+    color: #ffffff;
+  }
+
+  a.kmcgaming:link,a.kmcgaming:visited{
+    background-color: #ffffff;
+    color: #353434;
+  }
+
+  a.kmcgaming:hover{
+    background-color: rgba(255,255, 255, 1);
+    color: #353434;
+  }
+
+
+  body{
+    background-color: #f0f8ff;
+  }
+
+
+  .eventcard {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+
+  .poster {
+    width: 90%;
+    height: auto;
+    align-self: center;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+
+  h2.event-head {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+  p.event-tag {
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 3%;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 3%;
+    font-weight: 300;
+  }
+
+  p.vervetag {
+    text-align: center;
+    width: 90%;
+    line-height: 18px;
+    font-size: 12px;
+  }
+
+  img.icon {
+    display: block;
+    height: 35px;
+    width: 35px;
+    margin-left: 3%;
+    margin-bottom: 5px;
+    align-self: center;
+  }
+
+  h3.event-subhead {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 30px;
+    margin-left: 2%;
+  }
+
+  p.quote {
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 3%;
+    margin-top: 8px;
+    margin-right: 3%;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  p.quote2 {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  p.quote-owner {
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 11px;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+
+
+}
