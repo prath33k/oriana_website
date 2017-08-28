@@ -1610,6 +1610,71 @@ MOBILE SITE
   }
 
 
+  .flinks{
+    display: block;
+    text-align: center;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  ul.footer-home{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  footer.home{
+    width: auto;
+  }
+
+  .social-home{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .footer-link{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 7px 5px 7px 5px;
+  }
+
+  img.social-icon {
+      display: block;
+      width: 45px;
+      height: 45px;
+      padding-left: 5px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+  }
+
+p.social{
+  font-size: 18px;
+  padding-left: 7px;
+  padding-top: 12px;
+}
+
+
+a.app{
+  font-size: 21px;
+  padding-bottom: 16px;
+  padding-top: 3px;
+}
+
 
 }
 
