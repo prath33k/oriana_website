@@ -804,7 +804,16 @@ CULTURAL PAGE
   border-radius: 20px;
   padding-bottom: 15px;
   padding-top: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+footer.main{
+  background-color: #272727;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .eccolor1{
@@ -1222,7 +1231,14 @@ WIDESCREEN LIMITS
     border-radius: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+  }
+
+  footer.main{
+    width: 788px;
+    border-radius: 20px;
+    background-color: #272727;
+    margin-bottom: 20px;
   }
 
 }
@@ -1525,7 +1541,7 @@ MOBILE SITE
     border-radius: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .poster {
@@ -1615,7 +1631,8 @@ MOBILE SITE
     text-align: center;
   }
 
-  footer{
+  footer.home{
+    background-color: #272727;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1626,6 +1643,22 @@ MOBILE SITE
     border-radius: 10px;
     margin-bottom: 5px;
   }
+
+  footer.main{
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+
+  }
+
+
 
   ul.footer-home{
     margin-top: 10px;
