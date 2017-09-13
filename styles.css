@@ -223,6 +223,42 @@ h3.raipur{
   justify-content: center;
 }
 /*
+================================================================================
+REGISTER
+================================================================================
+*/
+.mainreg{
+  width: 100%;
+  background-color: #060506;
+  border-bottom: 1px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a.mainregbtn{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+  font-size: 2.5vw;
+  background-color: #dd5347;
+  padding: 1vw 2vw 1vw 2vw;
+  width: 10vw;
+  border-radius: 10px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*
 =================================================================================
 BATTLE OF BANDS
 =================================================================================
@@ -1176,6 +1212,9 @@ h3.escolor8{
   background-color: #5d5c5c;
 }
 
+body.encore{
+  background-color: #5d5c5c;
+}
 /*
 ================================================================================
 CONTACT US
@@ -1264,11 +1303,8 @@ a.email-link{
 a[href^="tel"]{
     color:inherit;
     text-decoration:none;
-} 
-
-body.contacts{
-  background-color: #ffcb6b;
 }
+
 
 
 
@@ -1311,6 +1347,14 @@ WIDESCREEN LIMITS
         -ms-flex-align: center;
             align-items: center;
   }
+
+  a.mainregbtn{
+    font-size: 28px;
+    background-color: #dd5347;
+    padding: 11px 22px 11px 22px;
+    width: 108px;
+  }
+
 
 
   p.event-tag {
@@ -1548,6 +1592,25 @@ MOBILE SITE
     background-color: #313131;
   }
 
+  a.mainregbtn {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.mainreg{
+  background: none;
+  border: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: auto;
+}
+
   p.Event-title {
     color: white;
     text-align: center;
@@ -1734,6 +1797,7 @@ MOBILE SITE
     padding-bottom: 15px;
     padding-top: 15px;
     margin-bottom: 20px;
+    overflow: hidden;
   }
 
   .poster {
@@ -2053,3 +2117,272 @@ body{
 }
 
 }
+
+/*
+================================================================================
+ARTISTE COVE RULES
+================================================================================
+*/
+
+input{
+  display: none;
+  visibility: hidden;
+}
+
+label{
+  display: block;
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  width: 8vw;
+  margin: 0 auto;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+label:hover{
+  cursor: pointer;
+}
+
+label::before{
+  content: "+";
+  margin-right: 5px;
+}
+
+label.artist{
+  background-color: #f82f53;
+  color: #fff;
+}
+
+p.fees{
+  font-weight: 700;
+  font-size: 2.3vw;
+}
+
+#expand1{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand2{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand3{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand4{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand5{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand6{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand7{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand8{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand9{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+
+p.artrules{
+  color: #fff;
+  text-align: left;
+}
+
+#toggle1:checked ~ #expand1 {
+  height: 438px;
+}
+
+#toggle2:checked ~ #expand2 {
+  height: 438px;
+}
+
+#toggle3:checked ~ #expand3 {
+  height: 460px;
+}
+
+#toggle4:checked ~ #expand4 {
+  height: 414px;
+}
+
+#toggle5:checked ~ #expand5 {
+  height: 434px;
+}
+
+#toggle6:checked ~ #expand6 {
+  height: 372px;
+}
+
+#toggle7:checked ~ #expand7 {
+  height: 372px;
+}
+
+#toggle8:checked ~ #expand8 {
+  height: 435px;
+}
+
+#toggle9:checked ~ #expand9 {
+  height: 382px;
+}
+
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+#toggle2:checked ~ label::before {
+  content: "-";
+}
+
+#toggle3:checked ~ label::before {
+  content: "-";
+}
+
+#toggle4:checked ~ label::before {
+  content: "-";
+}
+
+#toggle5:checked ~ label::before {
+  content: "-";
+}
+
+#toggle6:checked ~ label::before {
+  content: "-";
+}
+
+#toggle7:checked ~ label::before {
+  content: "-";
+}
+
+#toggle8:checked ~ label::before {
+  content: "-";
+}
+
+#toggle9:checked ~ label::before {
+  content: "-";
+}
+
+@media only screen and (max-width: 700px) {
+
+  label{
+    font-size: 14px;
+    width: 67px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  p.fees{
+    font-size: 18px;
+  }
+
+  #toggle1:checked ~ #expand1 {
+    height: 468px;
+  }
+
+  #toggle2:checked ~ #expand2 {
+    height: 416px;
+  }
+
+  #toggle3:checked ~ #expand3 {
+    height: 495px;
+  }
+
+  #toggle4:checked ~ #expand4 {
+    height: 444px;
+  }
+
+  #toggle5:checked ~ #expand5 {
+    height: 502px;
+  }
+
+  #toggle6:checked ~ #expand6 {
+    height: 350px;
+  }
+
+  #toggle7:checked ~ #expand7 {
+    height: 383px;
+  }
+
+  #toggle8:checked ~ #expand8 {
+    height: 412px;
+  }
+
+  #toggle9:checked ~ #expand9 {
+    height: 359px;
+  }
+}
+
+  @media only screen and (min-width: 1001px) {
+
+    label{
+      font-size: 15px;
+      width: 80px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    p.fees{
+      font-size: 23px;
+    }
+
+  }
