@@ -6,7 +6,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -1164,22 +1164,22 @@ DIOPTRE MAIN PAGE
 */
 
 .eccolor7{
-  background-color: #c2b7ba;
+  background-color: #1b7167;
 }
 
 h1.diohead {
-  color: #e9e9e9;
+  color: #fff;
 }
 
 p.etcolor7 {
-  color: #5f494a;
+  color: #fff;
 }
 
 
 .dioptre-container{
   width:100%;
   height: 100%;
-  background-color: #5f494a;
+  background-color: #383838;
 }
 
 
@@ -2120,7 +2120,7 @@ body{
 
 /*
 ================================================================================
-ARTISTE COVE RULES
+RULES
 ================================================================================
 */
 
@@ -2158,9 +2158,30 @@ label.artist{
   color: #fff;
 }
 
+label.dancer{
+  background-color: #615c71;
+  color: #fff;
+}
+
+label.shooter{
+  background-color: #fff;
+  color: #1b7167;
+}
+
+a.dfb{
+  text-decoration: none;
+}
+
+a.dfb:visited{
+  color: inherit;
+}
 p.fees{
   font-weight: 700;
   font-size: 2.3vw;
+}
+
+p.space{
+  margin-bottom: 20px;
 }
 
 #expand1{
@@ -2244,14 +2265,60 @@ p.fees{
   background-color: #f82f53;
 }
 
+#expand10{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand11{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand12{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand13{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
 
 p.artrules{
   color: #fff;
   text-align: left;
 }
 
+p.ververules{
+  color: #615c71;
+  text-align: left;
+}
+
+p.dioptrerules{
+  color: #615c71;
+  text-align: left;
+}
+
 #toggle1:checked ~ #expand1 {
-  height: 438px;
+  height: 533px;
 }
 
 #toggle2:checked ~ #expand2 {
@@ -2285,6 +2352,25 @@ p.artrules{
 #toggle9:checked ~ #expand9 {
   height: 382px;
 }
+
+#toggle10:checked ~ #expand10 {
+  height: 1040px;
+}
+
+#toggle11:checked ~ #expand11 {
+  height: 1205px;
+}
+
+#toggle12:checked ~ #expand12 {
+  height: 1100px;
+}
+
+#toggle13:checked ~ #expand13 {
+  height: 1482px;
+}
+
+
+
 
 #toggle1:checked ~ label::before {
   content: "-";
@@ -2322,6 +2408,22 @@ p.artrules{
   content: "-";
 }
 
+#toggle10:checked ~ label::before {
+  content: "-";
+}
+
+#toggle11:checked ~ label::before {
+  content: "-";
+}
+
+#toggle12:checked ~ label::before {
+  content: "-";
+}
+
+#toggle13:checked ~ label::before {
+  content: "-";
+}
+
 @media only screen and (max-width: 700px) {
 
   label{
@@ -2336,7 +2438,7 @@ p.artrules{
   }
 
   #toggle1:checked ~ #expand1 {
-    height: 468px;
+    height: 604px;
   }
 
   #toggle2:checked ~ #expand2 {
@@ -2369,6 +2471,22 @@ p.artrules{
 
   #toggle9:checked ~ #expand9 {
     height: 359px;
+  }
+
+  #toggle10:checked ~ #expand10 {
+    height: 1386px;
+  }
+
+  #toggle11:checked ~ #expand11 {
+    height: 1555px;
+  }
+
+  #toggle12:checked ~ #expand12 {
+    height: 1377px;
+  }
+
+  #toggle13:checked ~ #expand13 {
+    height: 1772px;
   }
 }
 
