@@ -2170,6 +2170,7 @@ label.shooter{
 
 a.dfb{
   text-decoration: none;
+  color: inherit;
 }
 
 a.dfb:visited{
@@ -2313,7 +2314,7 @@ p.ververules{
 }
 
 p.dioptrerules{
-  color: #615c71;
+  color: #1b7167;
   text-align: left;
 }
 
