@@ -2390,7 +2390,7 @@ p.bobrules{
 }
 
 #toggle14:checked ~ #expand14 {
-  height: 740px;
+  height: 778px;
 }
 
 
@@ -2518,7 +2518,7 @@ p.bobrules{
   }
 
   #toggle14:checked ~ #expand14 {
-    height: 928px;
+    height: 960px;
   }
 }
 
