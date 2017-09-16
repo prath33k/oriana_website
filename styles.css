@@ -2173,6 +2173,11 @@ label.poorimonnadi{
   color: #000;
 }
 
+label.chicks{
+  background-color: #fff;
+  color: #685c79;
+}
+
 a.dfb{
   text-decoration: none;
   color: inherit;
@@ -2316,6 +2321,16 @@ p.space{
   background-color: #f2c880;
 }
 
+#expand15{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+
 
 p.artrules{
   color: #fff;
@@ -2334,6 +2349,11 @@ p.dioptrerules{
 
 p.bobrules{
   color: #000;
+  text-align: left;
+}
+
+p.fashionrules{
+  color: #685c79;
   text-align: left;
 }
 
@@ -2393,6 +2413,11 @@ p.bobrules{
   height: 778px;
 }
 
+#toggle15:checked ~ #expand15 {
+  height: 571px;
+}
+
+
 
 
 
@@ -2449,6 +2474,10 @@ p.bobrules{
 }
 
 #toggle14:checked ~ label::before {
+  content: "-";
+}
+
+#toggle15:checked ~ label::before {
   content: "-";
 }
 
@@ -2519,6 +2548,10 @@ p.bobrules{
 
   #toggle14:checked ~ #expand14 {
     height: 960px;
+  }
+
+  #toggle15:checked ~ #expand15 {
+    height: 738px;
   }
 }
 
