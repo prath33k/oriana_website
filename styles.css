@@ -2215,6 +2215,11 @@ label.chicks{
   color: #685c79;
 }
 
+label.brainy{
+  background-color: #fff;
+  color: #5c0009;
+}
+
 a.dfb{
   text-decoration: none;
   color: inherit;
@@ -2367,6 +2372,15 @@ p.space{
   background-color: #fff;
 }
 
+#expand16{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
 
 
 p.artrules{
@@ -2391,6 +2405,11 @@ p.bobrules{
 
 p.fashionrules{
   color: #685c79;
+  text-align: left;
+}
+
+p.literaryrules{
+  color: #5c0009;
   text-align: left;
 }
 
@@ -2451,7 +2470,11 @@ p.fashionrules{
 }
 
 #toggle15:checked ~ #expand15 {
-  height: 571px;
+  height: 508px;
+}
+
+#toggle16:checked ~ #expand16 {
+  height: 1440px;
 }
 
 
@@ -2515,6 +2538,10 @@ p.fashionrules{
 }
 
 #toggle15:checked ~ label::before {
+  content: "-";
+}
+
+#toggle16:checked ~ label::before {
   content: "-";
 }
 
@@ -2588,7 +2615,11 @@ p.fashionrules{
   }
 
   #toggle15:checked ~ #expand15 {
-    height: 738px;
+    height: 684px;
+  }
+
+  #toggle16:checked ~ #expand16 {
+    height: 1651px;
   }
 }
 
