@@ -625,6 +625,33 @@ a.kmcdioptre:hover{
 
 /*
 ================================================================================
+CAMPUS PRINCESS
+================================================================================
+*/
+
+.overlay-11{
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2.94%, rgba(0, 0, 0, 1)), color-stop(27.73%, transparent), color-stop(48.32%, rgba(0, 0, 0, 0.6)));
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1) 2.94%, transparent 27.73%, rgba(0, 0, 0, 0.6) 48.32%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1) 2.94%, transparent 27.73%, rgba(0, 0, 0, 0.6) 48.32%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 2.94%, transparent 27.73%, rgba(0, 0, 0, 0.6) 48.32%);
+  height:100%;
+  width: 100%;
+}
+.cp{
+  position: relative;
+
+}
+
+p.etccp{
+  color: #f1bfa6;
+}
+
+/*
+================================================================================
 GAMING
 ================================================================================
 */
@@ -1528,7 +1555,7 @@ MOBILE SITE
   }
 
 
-  .bob,.sports,.cultural,.literary,.gaming,.encore,.art,.photography,.alamode {
+  .bob,.sports,.cultural,.literary,.gaming,.encore,.art,.photography,.alamode,.cp {
     position: relative;
     border-radius: 10px;
     margin-top: 10px;
@@ -1537,7 +1564,7 @@ MOBILE SITE
     margin-right: 5px;
     overflow: hidden;
   }
-  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6,.overlay-7,.overlay-8,.overlay-9,.overlay-10{
+  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6,.overlay-7,.overlay-8,.overlay-9,.overlay-10,.overlay-11{
     position: relative;
     background: none;
     display: -webkit-box;
@@ -1591,6 +1618,12 @@ MOBILE SITE
   .overlay-10{
     background-color: #313131;
   }
+
+  .overlay-11{
+    background-color: #E54661;
+  }
+
+
 
   a.mainregbtn {
     font-size: 24px;
@@ -1782,6 +1815,10 @@ MOBILE SITE
   a.kmcfashion:hover{
     background-color: rgba(255,255, 255, 1);
     color: #313131;
+  }
+
+  p.etccp{
+    color: #ffffff;
   }
 
   body{
