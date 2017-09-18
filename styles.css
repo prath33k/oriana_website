@@ -2220,6 +2220,11 @@ label.brainy{
   color: #5c0009;
 }
 
+label.singer{
+  background-color: #fff;
+  color: #694640;
+}
+
 a.dfb{
   text-decoration: none;
   color: inherit;
@@ -2426,6 +2431,44 @@ p.space{
   background-color: #fff;
 }
 
+#expand22{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand23{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+a.eventregbtn{
+  display: block;
+  font-family: "Roboto",sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  width: 14vw;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 2.5vw;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+a.encorebtn{
+  color: #fff;
+  background-color: #694640;
+}
 
 
 p.artrules{
@@ -2455,6 +2498,11 @@ p.fashionrules{
 
 p.literaryrules{
   color: #5c0009;
+  text-align: left;
+}
+
+p.encorerules{
+  color: #694640;
   text-align: left;
 }
 
@@ -2541,6 +2589,15 @@ p.literaryrules{
 #toggle21:checked ~ #expand21 {
   height: 637px;
 }
+
+#toggle22:checked ~ #expand22 {
+  height: 950px;
+}
+
+#toggle23:checked ~ #expand23 {
+  height: 747px;
+}
+
 
 
 
@@ -2630,6 +2687,14 @@ p.literaryrules{
   content: "-";
 }
 
+#toggle22:checked ~ label::before {
+  content: "-";
+}
+
+#toggle23:checked ~ label::before {
+  content: "-";
+}
+
 @media only screen and (max-width: 700px) {
 
   label{
@@ -2641,6 +2706,13 @@ p.literaryrules{
 
   p.fees{
     font-size: 18px;
+  }
+
+  a.eventregbtn{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 110px;
+    font-size: 20px;
   }
 
   #toggle1:checked ~ #expand1 {
@@ -2726,6 +2798,14 @@ p.literaryrules{
   #toggle21:checked ~ #expand21 {
     height: 844px;
   }
+
+  #toggle22:checked ~ #expand22 {
+    height: 1045px;
+  }
+
+  #toggle23:checked ~ #expand23 {
+    height: 818px;
+  }
 }
 
   @media only screen and (min-width: 1001px) {
@@ -2739,6 +2819,13 @@ p.literaryrules{
 
     p.fees{
       font-size: 23px;
+    }
+
+    a.eventregbtn{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      width: 140px;
+      font-size: 25px;
     }
 
   }
