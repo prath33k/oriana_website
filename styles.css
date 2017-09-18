@@ -2381,6 +2381,51 @@ p.space{
   background-color: #fff;
 }
 
+#expand17{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand18{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand19{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand20{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand21{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
 
 
 p.artrules{
@@ -2477,6 +2522,26 @@ p.literaryrules{
   height: 1440px;
 }
 
+#toggle17:checked ~ #expand17 {
+  height: 1165px;
+}
+
+#toggle18:checked ~ #expand18 {
+  height: 445px;
+}
+
+#toggle19:checked ~ #expand19 {
+  height: 605px;
+}
+
+#toggle20:checked ~ #expand20 {
+  height: 661px;
+}
+
+#toggle21:checked ~ #expand21 {
+  height: 637px;
+}
+
 
 
 
@@ -2542,6 +2607,26 @@ p.literaryrules{
 }
 
 #toggle16:checked ~ label::before {
+  content: "-";
+}
+
+#toggle17:checked ~ label::before {
+  content: "-";
+}
+
+#toggle18:checked ~ label::before {
+  content: "-";
+}
+
+#toggle19:checked ~ label::before {
+  content: "-";
+}
+
+#toggle20:checked ~ label::before {
+  content: "-";
+}
+
+#toggle21:checked ~ label::before {
   content: "-";
 }
 
@@ -2620,6 +2705,26 @@ p.literaryrules{
 
   #toggle16:checked ~ #expand16 {
     height: 1651px;
+  }
+
+  #toggle17:checked ~ #expand17 {
+    height: 1366px;
+  }
+
+  #toggle18:checked ~ #expand18 {
+    height: 550px;
+  }
+
+  #toggle19:checked ~ #expand19 {
+    height: 610px;
+  }
+
+  #toggle20:checked ~ #expand20 {
+    height: 768px;
+  }
+
+  #toggle21:checked ~ #expand21 {
+    height: 844px;
   }
 }
 
