@@ -2475,6 +2475,12 @@ a.vervebtn{
   color: #fff;
 }
 
+a.alabtn{
+  background-color: #ac6c82;
+  color: #fff;
+}
+
+
 
 p.artrules{
   color: #fff;
@@ -2552,11 +2558,11 @@ p.encorerules{
 }
 
 #toggle11:checked ~ #expand11 {
-  height: 1205px;
+  height: 1225px;
 }
 
 #toggle12:checked ~ #expand12 {
-  height: 1100px;
+  height: 1080px;
 }
 
 #toggle13:checked ~ #expand13 {
@@ -2568,7 +2574,7 @@ p.encorerules{
 }
 
 #toggle15:checked ~ #expand15 {
-  height: 508px;
+  height: 573px;
 }
 
 #toggle16:checked ~ #expand16 {
@@ -2757,15 +2763,15 @@ p.encorerules{
   }
 
   #toggle10:checked ~ #expand10 {
-    height: 1386px;
+    height: 1332px;
   }
 
   #toggle11:checked ~ #expand11 {
-    height: 1555px;
+    height: 1481px;
   }
 
   #toggle12:checked ~ #expand12 {
-    height: 1377px;
+    height: 1324px;
   }
 
   #toggle13:checked ~ #expand13 {
@@ -2777,7 +2783,7 @@ p.encorerules{
   }
 
   #toggle15:checked ~ #expand15 {
-    height: 684px;
+    height: 750px;
   }
 
   #toggle16:checked ~ #expand16 {
