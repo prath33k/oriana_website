@@ -2225,6 +2225,11 @@ label.singer{
   color: #694640;
 }
 
+label.player{
+  background-color: #e0272b;
+  color: #fff;
+}
+
 a.dfb{
   text-decoration: none;
   color: inherit;
@@ -2449,6 +2454,97 @@ p.space{
   background-color: #fff;
 }
 
+#expand24{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand25{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand26{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand27{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand28{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand29{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand30{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand31{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand32{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+#expand33{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #afa0ff;
+}
+
+
 a.eventregbtn{
   display: block;
   font-family: "Roboto",sans-serif;
@@ -2480,7 +2576,10 @@ a.alabtn{
   color: #fff;
 }
 
-
+a.kurubtn{
+  background-color: #e0272b;
+  color: #fff;
+}
 
 p.artrules{
   color: #fff;
@@ -2516,6 +2615,12 @@ p.encorerules{
   color: #694640;
   text-align: left;
 }
+
+p.sportsrules{
+  color: #fff;
+  text-align: left;
+}
+
 
 #toggle1:checked ~ #expand1 {
   height: 533px;
@@ -2607,6 +2712,46 @@ p.encorerules{
 
 #toggle23:checked ~ #expand23 {
   height: 747px;
+}
+
+#toggle24:checked ~ #expand24 {
+  height: 732px;
+}
+
+#toggle25:checked ~ #expand25 {
+  height: 861px;
+}
+
+#toggle26:checked ~ #expand26 {
+  height: 713px;
+}
+
+#toggle27:checked ~ #expand27 {
+  height: 412px;
+}
+
+#toggle28:checked ~ #expand28 {
+  height: 479px;
+}
+
+#toggle29:checked ~ #expand29 {
+  height: 480px;
+}
+
+#toggle30:checked ~ #expand30 {
+  height: 783px;
+}
+
+#toggle31:checked ~ #expand31 {
+  height: 335px;
+}
+
+#toggle32:checked ~ #expand32 {
+  height: 608px;
+}
+
+#toggle33:checked ~ #expand33 {
+  height: 412px;
 }
 
 
@@ -2703,6 +2848,46 @@ p.encorerules{
 }
 
 #toggle23:checked ~ label::before {
+  content: "-";
+}
+
+#toggle24:checked ~ label::before {
+  content: "-";
+}
+
+#toggle25:checked ~ label::before {
+  content: "-";
+}
+
+#toggle26:checked ~ label::before {
+  content: "-";
+}
+
+#toggle27:checked ~ label::before {
+  content: "-";
+}
+
+#toggle28:checked ~ label::before {
+  content: "-";
+}
+
+#toggle29:checked ~ label::before {
+  content: "-";
+}
+
+#toggle30:checked ~ label::before {
+  content: "-";
+}
+
+#toggle31:checked ~ label::before {
+  content: "-";
+}
+
+#toggle32:checked ~ label::before {
+  content: "-";
+}
+
+#toggle33:checked ~ label::before {
   content: "-";
 }
 
@@ -2816,6 +3001,46 @@ p.encorerules{
 
   #toggle23:checked ~ #expand23 {
     height: 818px;
+  }
+
+  #toggle24:checked ~ #expand24 {
+    height: 840px;
+  }
+
+  #toggle25:checked ~ #expand25 {
+    height: 968px;
+  }
+
+  #toggle26:checked ~ #expand26 {
+    height: 818px;
+  }
+
+  #toggle27:checked ~ #expand27 {
+    height: 440px;
+  }
+
+  #toggle28:checked ~ #expand28 {
+    height: 524px;
+  }
+
+  #toggle29:checked ~ #expand29 {
+    height: 504px;
+  }
+
+  #toggle30:checked ~ #expand30 {
+    height: 984px;
+  }
+
+  #toggle31:checked ~ #expand31 {
+    height: 355px;
+  }
+
+  #toggle32:checked ~ #expand32 {
+    height: 600px;
+  }
+
+  #toggle33:checked ~ #expand33 {
+    height: 459px;
   }
 }
 
