@@ -650,6 +650,16 @@ p.etccp{
   color: #f1bfa6;
 }
 
+a.kmccp:link,a.kmccp:visited{
+  background-color: rgba(229, 70, 97, 0.9);
+  color: #fff;
+}
+
+a.kmccp:hover{
+  background-color: rgba(251, 47, 81, 0.9);
+  color: #ffffff;
+}
+
 /*
 ================================================================================
 GAMING
@@ -998,6 +1008,10 @@ p.quote2{
   border: 2px solid #615c72;
 }
 
+.sexyposter{
+  width:95%;
+}
+
 .poster-container{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1242,6 +1256,32 @@ h3.escolor8{
 body.encore{
   background-color: #5d5c5c;
 }
+
+/*
+================================================================================
+CAMPUS PRINCESS MAIN PAGE
+================================================================================
+*/
+
+.eccolor9{
+  background-color: #292621;
+}
+
+h1.sexyhead {
+  color: #fff;
+}
+
+p.etcolor9 {
+  color: #fff;
+}
+
+
+.princess-container{
+  width:100%;
+  height: 100%;
+  background-color: #744f7d;
+}
+
 /*
 ================================================================================
 CONTACT US
@@ -1360,7 +1400,7 @@ WIDESCREEN LIMITS
     font-weight: 600;
     text-align: center;
   }
-  .cultural-container,.literary-container,.sports-container,.crescendo-container,.fashion-container,.cove-container,.encore-container,.dioptre-container {
+  .cultural-container,.literary-container,.sports-container,.crescendo-container,.fashion-container,.cove-container,.encore-container,.dioptre-container,.princess-container {
     height: 100%;
     width: 100%;
     display: -webkit-box;
@@ -1821,6 +1861,16 @@ MOBILE SITE
     color: #ffffff;
   }
 
+  a.kmccp:link,a.kmccp:visited{
+    background-color: #ffffff;
+    color: #e54661;
+  }
+
+  a.kmccp:hover{
+    background-color: rgba(255,255, 255, 1);
+    color: #e54661;
+  }
+
   body{
     background-color: #616161;
   }
@@ -1844,6 +1894,10 @@ MOBILE SITE
         align-self: center;
     border-radius: 10px;
     margin-top: 5px;
+  }
+
+  .sexyposter{
+    width: 95%;
   }
 
   h2.event-head {
@@ -2230,6 +2284,11 @@ label.player{
   color: #fff;
 }
 
+label.anjali{
+  background-color: #d82c54;
+  color: #fff;
+}
+
 a.dfb{
   text-decoration: none;
   color: inherit;
@@ -2544,6 +2603,15 @@ p.space{
   background-color: #afa0ff;
 }
 
+#expand34{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
 
 a.eventregbtn{
   display: block;
@@ -2578,6 +2646,11 @@ a.alabtn{
 
 a.kurubtn{
   background-color: #e0272b;
+  color: #fff;
+}
+
+a.cpbtn{
+  background-color: #744f7d;
   color: #fff;
 }
 
@@ -2618,6 +2691,11 @@ p.encorerules{
 
 p.sportsrules{
   color: #fff;
+  text-align: left;
+}
+
+p.princessrules{
+  color: #744f7d;
   text-align: left;
 }
 
@@ -2754,6 +2832,9 @@ p.sportsrules{
   height: 412px;
 }
 
+#toggle34:checked ~ #expand34 {
+  height: 442px;
+}
 
 
 
@@ -2888,6 +2969,10 @@ p.sportsrules{
 }
 
 #toggle33:checked ~ label::before {
+  content: "-";
+}
+
+#toggle34:checked ~ label::before {
   content: "-";
 }
 
@@ -3042,6 +3127,11 @@ p.sportsrules{
   #toggle33:checked ~ #expand33 {
     height: 459px;
   }
+
+  #toggle34:checked ~ #expand34 {
+    height: 453px;
+  }
+
 }
 
   @media only screen and (min-width: 1001px) {
