@@ -2741,6 +2741,11 @@ a.cpbtn{
   color: #fff;
 }
 
+a.bobbtn{
+  background-color: #0d0d0d;
+  color: #f2c880;
+}
+
 p.artrules{
   color: #fff;
   text-align: left;
@@ -2840,7 +2845,7 @@ p.princessrules{
 }
 
 #toggle14:checked ~ #expand14 {
-  height: 778px;
+  height: 862px;
 }
 
 #toggle15:checked ~ #expand15 {
@@ -3136,7 +3141,7 @@ p.princessrules{
   }
 
   #toggle14:checked ~ #expand14 {
-    height: 960px;
+    height: 1024px;
   }
 
   #toggle15:checked ~ #expand15 {
