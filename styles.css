@@ -250,8 +250,8 @@ a.mainregbtn{
   font-weight: 300;
   font-size: 2.5vw;
   background-color: #ff3b3f;
-  padding: 1vw 2vw 1vw 2vw;
-  width: 10vw;
+  padding: 2vw 2vw 2vw 2vw;
+  width: 32vw;
   border-radius: 10px;
   color: #fff;
   margin: 0 auto;
@@ -1486,9 +1486,9 @@ WIDESCREEN LIMITS
 
   a.mainregbtn{
     font-size: 28px;
-    background-color: #dd5347;
-    padding: 11px 22px 11px 22px;
-    width: 108px;
+    background-color: #ff3b3f;
+    padding: 22px 22px 22px 22px;
+    width: 352px;
   }
 
 
