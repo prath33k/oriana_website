@@ -1043,7 +1043,6 @@ p.quote2{
       align-self: center;
   border-radius: 10px;
   margin-top: 30px;
-  border: 2px solid #615c72;
 }
 
 .sexyposter{
@@ -1079,25 +1078,25 @@ RENAISSANCE
 */
 
 .eccolor2{
-  background-color: #5C0009;
+  background-color: #2a2a2a;
 }
 
 h1.lithead {
-  color: #ffffff;
+  color: #2a2a2a;
 }
 
 p.etcolor2 {
-  color: #9B96A3;
+  color: #ffe5ba;
 }
 
 h3.escolor2 {
-  color: #ffffff;
+  color: #e0a048;
 }
 
 .literary-container{
   width:100%;
   height: 100%;
-  background-color: #940315;
+  background-color: #e0a048;
 }
 
 .icon-container{
@@ -2357,8 +2356,8 @@ label.chicks{
 }
 
 label.brainy{
-  background-color: #fff;
-  color: #5c0009;
+  background-color: #e0a048;
+  color: #2a2a2a;
 }
 
 label.singer{
@@ -2699,6 +2698,24 @@ p.space{
   background-color: #fff;
 }
 
+#expand35{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
+#expand36{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
 
 a.eventregbtn{
   display: block;
@@ -2746,6 +2763,11 @@ a.bobbtn{
   color: #f2c880;
 }
 
+a.litbtn{
+  background-color: #e0a048;
+  color: #2a2a2a;
+}
+
 p.artrules{
   color: #fff;
   text-align: left;
@@ -2772,7 +2794,7 @@ p.fashionrules{
 }
 
 p.literaryrules{
-  color: #5c0009;
+  color: #2a2a2a;
   text-align: left;
 }
 
@@ -2853,27 +2875,27 @@ p.princessrules{
 }
 
 #toggle16:checked ~ #expand16 {
-  height: 1440px;
+  height: 1476px;
 }
 
 #toggle17:checked ~ #expand17 {
-  height: 1165px;
+  height: 1194px;
 }
 
 #toggle18:checked ~ #expand18 {
-  height: 445px;
+  height: 459px;
 }
 
 #toggle19:checked ~ #expand19 {
-  height: 605px;
+  height: 645px;
 }
 
 #toggle20:checked ~ #expand20 {
-  height: 661px;
+  height: 676px;
 }
 
 #toggle21:checked ~ #expand21 {
-  height: 637px;
+  height: 654px;
 }
 
 #toggle22:checked ~ #expand22 {
@@ -2926,6 +2948,14 @@ p.princessrules{
 
 #toggle34:checked ~ #expand34 {
   height: 442px;
+}
+
+#toggle35:checked ~ #expand35 {
+  height: 520px;
+}
+
+#toggle36:checked ~ #expand36 {
+  height: 519px;
 }
 
 
@@ -3068,6 +3098,14 @@ p.princessrules{
   content: "-";
 }
 
+#toggle35:checked ~ label::before {
+  content: "-";
+}
+
+#toggle36:checked ~ label::before {
+  content: "-";
+}
+
 @media only screen and (max-width: 700px) {
 
   label{
@@ -3149,7 +3187,7 @@ p.princessrules{
   }
 
   #toggle16:checked ~ #expand16 {
-    height: 1651px;
+    height: 1672px;
   }
 
   #toggle17:checked ~ #expand17 {
@@ -3161,11 +3199,11 @@ p.princessrules{
   }
 
   #toggle19:checked ~ #expand19 {
-    height: 610px;
+    height: 669px;
   }
 
   #toggle20:checked ~ #expand20 {
-    height: 768px;
+    height: 806px;
   }
 
   #toggle21:checked ~ #expand21 {
@@ -3222,6 +3260,14 @@ p.princessrules{
 
   #toggle34:checked ~ #expand34 {
     height: 453px;
+  }
+
+  #toggle35:checked ~ #expand35 {
+    height: 543px;
+  }
+
+  #toggle36:checked ~ #expand36 {
+    height: 545px;
   }
 
 }
