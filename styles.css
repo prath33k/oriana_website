@@ -2716,6 +2716,51 @@ p.space{
   background-color: #fff;
 }
 
+#expand37{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand38{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand39{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand40{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
+#expand41{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #f82f53;
+}
+
 
 a.eventregbtn{
   display: block;
@@ -2768,6 +2813,11 @@ a.litbtn{
   color: #2a2a2a;
 }
 
+a.artbtn{
+  background-color: #f82f53;
+  color: #fff;
+}
+
 p.artrules{
   color: #fff;
   text-align: left;
@@ -2815,7 +2865,7 @@ p.princessrules{
 
 
 #toggle1:checked ~ #expand1 {
-  height: 533px;
+  height: 547px;
 }
 
 #toggle2:checked ~ #expand2 {
@@ -2831,15 +2881,15 @@ p.princessrules{
 }
 
 #toggle5:checked ~ #expand5 {
-  height: 434px;
+  height: 443px;
 }
 
 #toggle6:checked ~ #expand6 {
-  height: 372px;
+  height: 348px;
 }
 
 #toggle7:checked ~ #expand7 {
-  height: 372px;
+  height: 387px;
 }
 
 #toggle8:checked ~ #expand8 {
@@ -2847,7 +2897,7 @@ p.princessrules{
 }
 
 #toggle9:checked ~ #expand9 {
-  height: 382px;
+  height: 390px;
 }
 
 #toggle10:checked ~ #expand10 {
@@ -2958,7 +3008,25 @@ p.princessrules{
   height: 519px;
 }
 
+#toggle37:checked ~ #expand37 {
+  height: 412px;
+}
 
+#toggle38:checked ~ #expand38 {
+  height: 376px;
+}
+
+#toggle39:checked ~ #expand39 {
+  height: 348px;
+}
+
+#toggle40:checked ~ #expand40 {
+  height: 349px;
+}
+
+#toggle41:checked ~ #expand41 {
+  height: 375px;
+}
 
 
 
@@ -3106,6 +3174,27 @@ p.princessrules{
   content: "-";
 }
 
+#toggle37:checked ~ label::before {
+  content: "-";
+}
+
+#toggle38:checked ~ label::before {
+  content: "-";
+}
+
+#toggle39:checked ~ label::before {
+  content: "-";
+}
+
+#toggle40:checked ~ label::before {
+  content: "-";
+}
+
+#toggle41:checked ~ label::before {
+  content: "-";
+}
+
+
 @media only screen and (max-width: 700px) {
 
   label{
@@ -3135,7 +3224,7 @@ p.princessrules{
   }
 
   #toggle3:checked ~ #expand3 {
-    height: 495px;
+    height: 475px;
   }
 
   #toggle4:checked ~ #expand4 {
@@ -3155,11 +3244,11 @@ p.princessrules{
   }
 
   #toggle8:checked ~ #expand8 {
-    height: 412px;
+    height: 394px;
   }
 
   #toggle9:checked ~ #expand9 {
-    height: 359px;
+    height: 338px;
   }
 
   #toggle10:checked ~ #expand10 {
@@ -3268,6 +3357,26 @@ p.princessrules{
 
   #toggle36:checked ~ #expand36 {
     height: 545px;
+  }
+
+  #toggle37:checked ~ #expand37 {
+    height: 418px;
+  }
+
+  #toggle38:checked ~ #expand38 {
+    height: 370px;
+  }
+
+  #toggle39:checked ~ #expand39 {
+    height: 326px;
+  }
+
+  #toggle40:checked ~ #expand40 {
+    height: 349px;
+  }
+
+  #toggle41:checked ~ #expand41 {
+    height: 367px;
   }
 
 }
