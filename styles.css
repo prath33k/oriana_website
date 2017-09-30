@@ -2855,11 +2855,11 @@ p.princessrules{
 }
 
 #toggle11:checked ~ #expand11 {
-  height: 1225px;
+  height: 1183px;
 }
 
 #toggle12:checked ~ #expand12 {
-  height: 1080px;
+  height: 1038px;
 }
 
 #toggle13:checked ~ #expand13 {
@@ -3167,11 +3167,11 @@ p.princessrules{
   }
 
   #toggle11:checked ~ #expand11 {
-    height: 1481px;
+    height: 1447px;
   }
 
   #toggle12:checked ~ #expand12 {
-    height: 1324px;
+    height: 1291px;
   }
 
   #toggle13:checked ~ #expand13 {
