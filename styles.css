@@ -237,9 +237,7 @@ REGISTER
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: space-around;
 }
 
 a.mainregbtn{
@@ -251,7 +249,7 @@ a.mainregbtn{
   font-size: 2.5vw;
   background-color: #ff3b3f;
   padding: 2vw 2vw 2vw 2vw;
-  width: 32vw;
+  width: 37vw;
   border-radius: 10px;
   color: #fff;
   margin: 0 auto;
@@ -1483,13 +1481,6 @@ WIDESCREEN LIMITS
             align-items: center;
   }
 
-  a.mainregbtn{
-    font-size: 28px;
-    background-color: #ff3b3f;
-    padding: 22px 22px 22px 22px;
-    width: 352px;
-  }
-
 
 
   p.event-tag {
@@ -1738,9 +1729,11 @@ MOBILE SITE
 
 
   a.mainregbtn {
-    font-size: 24px;
+    font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     border-radius: 5px;
     width: 100%;
     margin: 0 auto;
@@ -1754,6 +1747,8 @@ MOBILE SITE
   margin-right: 5px;
   margin-left: 5px;
   width: auto;
+  flex-direction: column;
+  align-items: center;
 }
 
   p.Event-title {
@@ -2216,6 +2211,13 @@ a.email-link{
   margin: 0 auto;
   -webkit-box-shadow: 0px 0px 16px 15px #3c3c3c;
           box-shadow: 0px 0px 16px 15px #3c3c3c;
+}
+
+a.mainregbtn{
+  font-size: 28px;
+  background-color: #ff3b3f;
+  padding: 22px 22px 22px 22px;
+  width: 410px;
 }
 
 h3.aiims{
