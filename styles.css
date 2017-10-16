@@ -699,6 +699,34 @@ a.kmcinformal:hover{
 
 /*
 ================================================================================
+TERI MIKO
+================================================================================
+*/
+
+.dj{
+  position: relative;
+
+}
+
+.overlay-13{
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(44.96%, transparent), color-stop(65.97%, rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0.71)));
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8), transparent 44.96%, rgba(0, 0, 0, 1) 65.97%, rgba(0, 0, 0, 0.71));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.8), transparent 44.96%, rgba(0, 0, 0, 1) 65.97%, rgba(0, 0, 0, 0.71));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 44.96%, rgba(0, 0, 0, 1) 65.97%, rgba(0, 0, 0, 0.71));
+  height:100%;
+  width: 100%;
+}
+
+p.etcdj{
+  color: #f5a5ff;
+}
+
+/*
+================================================================================
 GAMING
 ================================================================================
 */
@@ -1655,7 +1683,7 @@ MOBILE SITE
   }
 
 
-  .bob,.sports,.cultural,.literary,.gaming,.encore,.art,.photography,.alamode,.cp,.informals {
+  .bob,.sports,.cultural,.literary,.gaming,.encore,.art,.photography,.alamode,.cp,.informals,.dj {
     position: relative;
     border-radius: 10px;
     margin-top: 10px;
@@ -1664,7 +1692,7 @@ MOBILE SITE
     margin-right: 5px;
     overflow: hidden;
   }
-  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6,.overlay-7,.overlay-8,.overlay-9,.overlay-10,.overlay-11,.overlay-12{
+  .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6,.overlay-7,.overlay-8,.overlay-9,.overlay-10,.overlay-11,.overlay-12,.overlay-13{
     position: relative;
     background: none;
     display: -webkit-box;
@@ -1725,6 +1753,10 @@ MOBILE SITE
 
   .overlay-12{
     background-color: #b42706;
+  }
+
+  .overlay-13{
+    background-color: #ad48ca;
   }
 
 
@@ -1956,6 +1988,10 @@ MOBILE SITE
   a.kmcinformal:hover{
     background-color: rgba(255,255, 255, 1);
     color: #b42706;
+  }
+
+  p.etcdj{
+    color: #fff;
   }
 
   body{
@@ -2295,6 +2331,10 @@ p.social {
 a.app {
   padding-left: 9px;
   font-size: 25px;
+}
+
+img.miko{
+  width: 1080px;
 }
 
 body{
@@ -2769,6 +2809,15 @@ p.space{
   background-color: #f82f53;
 }
 
+#expand42{
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  background-color: #fff;
+}
+
 
 a.eventregbtn{
   display: block;
@@ -2778,6 +2827,22 @@ a.eventregbtn{
   padding-top: 1.2vw;
   padding-bottom: 1.2vw;
   width: 14vw;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 2.5vw;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+a.downloadbtn{
+  display: block;
+  font-family: "Roboto",sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  width: 35vw;
   font-weight: 300;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -3036,6 +3101,10 @@ p.princessrules{
   height: 375px;
 }
 
+#toggle42:checked ~ #expand42 {
+  height: 690px;
+}
+
 
 
 #toggle1:checked ~ label::before {
@@ -3202,6 +3271,10 @@ p.princessrules{
   content: "-";
 }
 
+#toggle42:checked ~ label::before {
+  content: "-";
+}
+
 
 @media only screen and (max-width: 700px) {
 
@@ -3220,6 +3293,13 @@ p.princessrules{
     padding-top: 14px;
     padding-bottom: 14px;
     width: 110px;
+    font-size: 20px;
+  }
+
+  a.downloadbtn{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 280px;
     font-size: 20px;
   }
 
@@ -3387,6 +3467,10 @@ p.princessrules{
     height: 367px;
   }
 
+  #toggle42:checked ~ #expand42 {
+    height: 813px;
+  }
+
 }
 
   @media only screen and (min-width: 1001px) {
@@ -3406,6 +3490,13 @@ p.princessrules{
       padding-top: 12px;
       padding-bottom: 12px;
       width: 140px;
+      font-size: 25px;
+    }
+
+    a.downloadbtn{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      width: 350px;
       font-size: 25px;
     }
 
