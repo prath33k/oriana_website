@@ -144,7 +144,35 @@ h3.raipur{
 }
 .logo{
   width: 18vw;
+  align-self: center;
+  padding-left: 18vw;
 }
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+}
+
+img.cslogo{
+  width: 18vw;
+  align-self: center;
+}
+
+p.co{
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+  color: rgba(255,255,255,0.5);
+  font-size: 1.5vw;
+  padding-left: 1.4vw;
+}
+
+.cs-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 80px;
+}
+
 #countdown{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1713,6 +1741,21 @@ MOBILE SITE
   .logo {
     width: 70px;
     padding-top: 5px;
+    padding-left: 100px;
+  }
+
+  img.cslogo{
+    width: 100px;
+  }
+
+  p.co{
+    font-weight: 300;
+    font-size: 10px;
+    padding-left: 8px;
+  }
+
+  .cs-container{
+    padding-top: 25px;
   }
 
   .title{
@@ -2398,6 +2441,16 @@ background: linear-gradient(to bottom, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, 
 
   .logo{
     width: 194px;
+    padding-left: 194px;
+  }
+
+  img.cslogo{
+    width: 194px;
+  }
+
+  p.co{
+    font-size: 16px;
+    padding-left: 15px;
   }
 
   .count-down-units{
