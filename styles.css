@@ -1268,6 +1268,8 @@ h1.alahead{
 p.etcolor3{
   color: #FFBC82;
 }
+
+
 /*
 ================================================================================
 Crescendo
@@ -3694,6 +3696,10 @@ p.princessrules{
     height: 845px;
   }
 
+  p.center{
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 1001px) {
@@ -3723,4 +3729,8 @@ p.princessrules{
     font-size: 25px;
   }
 
+}
+
+p.center{
+  text-align: center;
 }
