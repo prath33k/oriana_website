@@ -3163,7 +3163,7 @@ p.princessrules{
 
 
 #toggle1:checked ~ #expand1 {
-  height: 547px;
+  height: 664px;
 }
 
 #toggle2:checked ~ #expand2 {
@@ -3529,7 +3529,7 @@ p.princessrules{
   }
 
   #toggle1:checked ~ #expand1 {
-    height: 604px;
+    height: 740px;
   }
 
   #toggle2:checked ~ #expand2 {
