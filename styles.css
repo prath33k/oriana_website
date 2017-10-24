@@ -3223,7 +3223,7 @@ p.princessrules{
 }
 
 #toggle16:checked ~ #expand16 {
-  height: 1476px;
+  height: 401px;
 }
 
 #toggle17:checked ~ #expand17 {
@@ -3589,7 +3589,7 @@ p.princessrules{
   }
 
   #toggle16:checked ~ #expand16 {
-    height: 1672px;
+    height: 427px;
   }
 
   #toggle17:checked ~ #expand17 {
