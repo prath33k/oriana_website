@@ -3235,11 +3235,11 @@ p.princessrules{
 }
 
 #toggle19:checked ~ #expand19 {
-  height: 710px;
+  height: 644px;
 }
 
 #toggle20:checked ~ #expand20 {
-  height: 676px;
+  height: 744px;
 }
 
 #toggle21:checked ~ #expand21 {
@@ -3601,11 +3601,11 @@ p.princessrules{
   }
 
   #toggle19:checked ~ #expand19 {
-    height: 740px;
+    height: 668px;
   }
 
   #toggle20:checked ~ #expand20 {
-    height: 806px;
+    height: 878px;
   }
 
   #toggle21:checked ~ #expand21 {
