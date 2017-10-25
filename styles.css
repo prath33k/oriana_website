@@ -282,6 +282,12 @@ REGISTER
   -ms-flex-pack: distribute;
 }
 
+.mainreg-container {
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid #fff;
+}
+
 a.mainregbtn{
   display: block;
   text-decoration: none;
@@ -1806,6 +1812,11 @@ MOBILE SITE
     margin-left: 5px;
     margin-right: 5px;
     overflow: hidden;
+  }
+
+  .mainreg-container{
+    border-radius: 10px;
+    border-bottom: none;
   }
   .overlay-2,.overlay-3,.overlay-4,.overlay-5,.overlay-6,.overlay-7,.overlay-8,.overlay-9,.overlay-10,.overlay-11,.overlay-12,.overlay-13,.overlay-14,.overlay-15{
     position: relative;
